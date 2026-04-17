@@ -30,7 +30,10 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#00F7FF]/30">
         <div className="container flex items-center justify-between py-4">
-          <div className="text-2xl font-bold neon-text">REKKIES</div>
+          <div className="flex items-center gap-3">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663120768155/gVa28wTQM49ARY26E9tHkp/OG_Rekkies_Logo_20251229_230331_0000_8e2d1e10.png" alt="REKKIES Logo" className="h-10 w-10" />
+            <div className="text-2xl font-bold neon-text">REKKIES</div>
+          </div>
           <div className="flex gap-8 items-center">
             <a href="#club" className="hover:text-[#00F7FF] transition-colors">Club</a>
             <a href="#records" className="hover:text-[#00F7FF] transition-colors">Records</a>
@@ -55,12 +58,15 @@ export default function Home() {
             <span className="text-[#00F7FF] text-sm font-semibold">WELCOME TO THE FUTURE</span>
           </div>
           
+          <div className="mb-8 flex justify-center">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663120768155/gVa28wTQM49ARY26E9tHkp/OG_Rekkies_Logo_20251229_230331_0000_8e2d1e10.png" alt="REKKIES Official Logo" className="h-32 w-32 drop-shadow-lg" style={{ filter: 'drop-shadow(0 0 20px rgba(0, 247, 255, 0.6))' }} />
+          </div>
           <h1 className="text-7xl md:text-8xl font-bold mb-6 leading-tight">
             <span className="neon-text">REKKIES</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-normal">
-            Money. Music. Movies.
+            Money Music Movies
           </p>
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto font-light">
