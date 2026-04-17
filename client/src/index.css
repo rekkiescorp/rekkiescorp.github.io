@@ -244,46 +244,7 @@
 
 
 
-/* REKKIES Color utilities */
-.text-rekkies-cyan {
-  color: #00F7FF;
-}
 
-.text-rekkies-magenta {
-  color: #FA00FF;
-}
-
-.text-rekkies-white {
-  color: #FFFFFF;
-}
-
-.text-rekkies-black {
-  color: #000000;
-}
-
-.bg-rekkies-black {
-  background-color: #000000;
-}
-
-.bg-rekkies-white {
-  background-color: #FFFFFF;
-}
-
-.bg-rekkies-cyan {
-  background-color: #00F7FF;
-}
-
-.bg-rekkies-magenta {
-  background-color: #FA00FF;
-}
-
-.border-rekkies-cyan {
-  border-color: #00F7FF;
-}
-
-.border-rekkies-magenta {
-  border-color: #FA00FF;
-}
 
 /* Animation classes */
 @keyframes glow-pulse {

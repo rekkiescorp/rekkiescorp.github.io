@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden" style={{ fontFamily: "'Fredoka', sans-serif" }}>
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-rekkies-cyan/30">
+      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-[#00F7FF]/30">
         <div className="container flex items-center justify-between py-4">
           <div className="text-2xl font-bold neon-text">REKKIES</div>
           <div className="flex gap-8 items-center">
-            <a href="#club" className="hover:text-rekkies-cyan transition-colors">Club</a>
-            <a href="#records" className="hover:text-rekkies-cyan transition-colors">Records</a>
-            <a href="#corp" className="hover:text-rekkies-cyan transition-colors">Corp</a>
+            <a href="#club" className="hover:text-[#00F7FF] transition-colors">Club</a>
+            <a href="#records" className="hover:text-[#00F7FF] transition-colors">Records</a>
+            <a href="#corp" className="hover:text-[#00F7FF] transition-colors">Corp</a>
           </div>
         </div>
       </nav>
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 container text-center">
-          <div className="mb-6 inline-block px-6 py-2 border border-rekkies-cyan/50 rounded-full">
-            <span className="text-rekkies-cyan text-sm font-semibold">WELCOME TO THE FUTURE</span>
+          <div className="mb-6 inline-block px-6 py-2 border border-[#00F7FF]/50 rounded-full">
+            <span className="text-[#00F7FF] text-sm font-semibold">WELCOME TO THE FUTURE</span>
           </div>
           
           <h1 className="text-7xl md:text-8xl font-bold mb-6 leading-tight">
@@ -69,11 +69,11 @@ export default function Home() {
 
           <div className="flex gap-6 justify-center flex-wrap">
             <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-bold px-8 py-6 text-lg neon-glow">
+              <Button className="bg-[#00F7FF] text-black hover:bg-[#FA00FF] font-bold px-8 py-6 text-lg neon-glow">
                 Join the REKKIES <ArrowRight className="ml-2" />
               </Button>
             </a>
-            <Button variant="outline" className="border-rekkies-magenta text-rekkies-magenta hover:bg-rekkies-magenta/10 font-bold px-8 py-6 text-lg">
+            <Button variant="outline" className="border-[#FA00FF] text-[#FA00FF] hover:bg-[#FA00FF]/10 font-bold px-8 py-6 text-lg">
               Explore More
             </Button>
           </div>
@@ -81,20 +81,20 @@ export default function Home() {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-rekkies-cyan rounded-full flex items-start justify-center p-2">
-            <div className="w-1 h-2 bg-rekkies-cyan rounded-full animate-pulse"></div>
+          <div className="w-6 h-10 border-2 border-[#00F7FF] rounded-full flex items-start justify-center p-2">
+            <div className="w-1 h-2 bg-[#00F7FF] rounded-full animate-pulse"></div>
           </div>
         </div>
       </section>
 
       {/* REKKIES Club Section - MAIN FOCUS */}
-      <section id="club" className="relative py-32 bg-black border-t-2 border-rekkies-cyan/30">
+      <section id="club" className="relative py-32 bg-black border-t-2 border-[#00F7FF]/30">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Content */}
             <div>
-              <div className="mb-6 inline-block px-4 py-2 bg-rekkies-magenta/10 border border-rekkies-magenta/50 rounded">
-                <span className="text-rekkies-magenta text-sm font-semibold">THE COMMUNITY</span>
+              <div className="mb-6 inline-block px-4 py-2 bg-[#FA00FF]/10 border border-[#FA00FF]/50 rounded">
+                <span className="text-[#FA00FF] text-sm font-semibold">THE COMMUNITY</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
@@ -109,8 +109,8 @@ export default function Home() {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-rekkies-cyan/20 border border-rekkies-cyan flex items-center justify-center flex-shrink-0">
-                    <Zap className="w-6 h-6 text-rekkies-cyan" />
+                  <div className="w-12 h-12 rounded-full bg-[#00F7FF]/20 border border-[#00F7FF] flex items-center justify-center flex-shrink-0">
+                    <Zap className="w-6 h-6 text-[#00F7FF]" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2">Money</h3>
@@ -119,8 +119,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-rekkies-cyan/20 border border-rekkies-cyan flex items-center justify-center flex-shrink-0">
-                    <Music className="w-6 h-6 text-rekkies-cyan" />
+                  <div className="w-12 h-12 rounded-full bg-[#00F7FF]/20 border border-[#00F7FF] flex items-center justify-center flex-shrink-0">
+                    <Music className="w-6 h-6 text-[#00F7FF]" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2">Music</h3>
@@ -129,8 +129,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-rekkies-cyan/20 border border-rekkies-cyan flex items-center justify-center flex-shrink-0">
-                    <Film className="w-6 h-6 text-rekkies-cyan" />
+                  <div className="w-12 h-12 rounded-full bg-[#00F7FF]/20 border border-[#00F7FF] flex items-center justify-center flex-shrink-0">
+                    <Film className="w-6 h-6 text-[#00F7FF]" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-2">Movies</h3>
@@ -140,7 +140,7 @@ export default function Home() {
               </div>
 
               <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
+                <Button className="bg-[#FA00FF] text-white hover:bg-[#00F7FF] hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
                   Join the REKKIES <ArrowRight className="ml-2" />
                 </Button>
               </a>
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* REKKIES Records Section */}
-      <section id="records" className="relative py-32 bg-black border-t-2 border-rekkies-magenta/30">
+      <section id="records" className="relative py-32 bg-black border-t-2 border-[#FA00FF]/30">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Hero Image */}
@@ -177,8 +177,8 @@ export default function Home() {
 
             {/* Right: Content */}
             <div className="order-1 md:order-2">
-              <div className="mb-6 inline-block px-4 py-2 bg-rekkies-cyan/10 border border-rekkies-cyan/50 rounded">
-                <span className="text-rekkies-cyan text-sm font-semibold">MUSIC PRODUCTION</span>
+              <div className="mb-6 inline-block px-4 py-2 bg-[#00F7FF]/10 border border-[#00F7FF]/50 rounded">
+                <span className="text-[#00F7FF] text-sm font-semibold">MUSIC PRODUCTION</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
@@ -193,24 +193,24 @@ export default function Home() {
 
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-lg font-normal">
-                  <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
+                  <span className="w-2 h-2 bg-[#FA00FF] rounded-full"></span>
                   Professional production and mixing
                 </li>
                 <li className="flex items-center gap-3 text-lg font-normal">
-                  <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
+                  <span className="w-2 h-2 bg-[#FA00FF] rounded-full"></span>
                   Artist development and mentorship
                 </li>
                 <li className="flex items-center gap-3 text-lg font-normal">
-                  <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
+                  <span className="w-2 h-2 bg-[#FA00FF] rounded-full"></span>
                   Distribution across all platforms
                 </li>
                 <li className="flex items-center gap-3 text-lg font-normal">
-                  <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
+                  <span className="w-2 h-2 bg-[#FA00FF] rounded-full"></span>
                   Marketing and promotion strategies
                 </li>
               </ul>
 
-              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-bold px-8 py-6 text-lg neon-glow">
+              <Button className="bg-[#00F7FF] text-black hover:bg-[#FA00FF] font-bold px-8 py-6 text-lg neon-glow">
                 Explore Records
               </Button>
             </div>
@@ -219,13 +219,13 @@ export default function Home() {
       </section>
 
       {/* REKKIES Corp Section */}
-      <section id="corp" className="relative py-32 bg-black border-t-2 border-rekkies-cyan/30">
+      <section id="corp" className="relative py-32 bg-black border-t-2 border-[#00F7FF]/30">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             {/* Left: Content */}
             <div>
-              <div className="mb-6 inline-block px-4 py-2 bg-rekkies-magenta/10 border border-rekkies-magenta/50 rounded">
-                <span className="text-rekkies-magenta text-sm font-semibold">HEADQUARTERS</span>
+              <div className="mb-6 inline-block px-4 py-2 bg-[#FA00FF]/10 border border-[#FA00FF]/50 rounded">
+                <span className="text-[#FA00FF] text-sm font-semibold">HEADQUARTERS</span>
               </div>
 
               <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
@@ -240,16 +240,16 @@ export default function Home() {
 
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="p-4 bg-gray-900/50 border border-gray-800 rounded">
-                  <h3 className="font-bold text-rekkies-cyan mb-2">Media Production</h3>
+                  <h3 className="font-bold text-[#00F7FF] mb-2">Media Production</h3>
                   <p className="text-sm text-gray-400 font-normal">Broadcast, digital, and content creation</p>
                 </div>
                 <div className="p-4 bg-gray-900/50 border border-gray-800 rounded">
-                  <h3 className="font-bold text-rekkies-magenta mb-2">Strategic Operations</h3>
+                  <h3 className="font-bold text-[#FA00FF] mb-2">Strategic Operations</h3>
                   <p className="text-sm text-gray-400 font-normal">Planning, coordination, and execution</p>
                 </div>
               </div>
 
-              <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
+              <Button className="bg-[#FA00FF] text-white hover:bg-[#00F7FF] hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
                 Learn More
               </Button>
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-32 bg-gradient-to-b from-black to-gray-900 border-t-2 border-rekkies-cyan/30">
+      <section className="relative py-32 bg-gradient-to-b from-black to-gray-900 border-t-2 border-[#00F7FF]/30">
         <div className="container text-center">
           <h2 className="text-5xl md:text-6xl font-bold mb-8">
             Ready to Join the <span className="neon-text">REKKIES</span>?
@@ -280,7 +280,7 @@ export default function Home() {
           </p>
 
           <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-12 py-8 text-xl neon-glow-magenta">
+            <Button className="bg-[#FA00FF] text-white hover:bg-[#00F7FF] hover:text-black font-bold px-12 py-8 text-xl neon-glow-magenta">
               Join Now <ArrowRight className="ml-2" />
             </Button>
           </a>
@@ -288,7 +288,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black border-t border-rekkies-cyan/30 py-12">
+      <footer className="bg-black border-t border-[#00F7FF]/30 py-12">
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
@@ -299,27 +299,27 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4">Divisions</h4>
               <ul className="space-y-2 text-gray-400 font-normal text-sm">
-                <li><a href="#club" className="hover:text-rekkies-cyan transition-colors">REKKIES Club</a></li>
-                <li><a href="#records" className="hover:text-rekkies-cyan transition-colors">REKKIES Records</a></li>
-                <li><a href="#corp" className="hover:text-rekkies-cyan transition-colors">REKKIES Corp</a></li>
+                <li><a href="#club" className="hover:text-[#00F7FF] transition-colors">REKKIES Club</a></li>
+                <li><a href="#records" className="hover:text-[#00F7FF] transition-colors">REKKIES Records</a></li>
+                <li><a href="#corp" className="hover:text-[#00F7FF] transition-colors">REKKIES Corp</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-bold mb-4">Community</h4>
               <ul className="space-y-2 text-gray-400 font-normal text-sm">
-                <li><a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer" className="hover:text-rekkies-cyan transition-colors">Join</a></li>
-                <li><a href="#" className="hover:text-rekkies-cyan transition-colors">About</a></li>
-                <li><a href="#" className="hover:text-rekkies-cyan transition-colors">Contact</a></li>
+                <li><a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer" className="hover:text-[#00F7FF] transition-colors">Join</a></li>
+                <li><a href="#" className="hover:text-[#00F7FF] transition-colors">About</a></li>
+                <li><a href="#" className="hover:text-[#00F7FF] transition-colors">Contact</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-bold mb-4">Connect</h4>
               <ul className="space-y-2 text-gray-400 font-normal text-sm">
-                <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Twitter</a></li>
-                <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Instagram</a></li>
-                <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Discord</a></li>
+                <li><a href="#" className="hover:text-[#FA00FF] transition-colors">Twitter</a></li>
+                <li><a href="#" className="hover:text-[#FA00FF] transition-colors">Instagram</a></li>
+                <li><a href="#" className="hover:text-[#FA00FF] transition-colors">Discord</a></li>
               </ul>
             </div>
           </div>
