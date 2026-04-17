@@ -26,11 +26,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black text-white font-fredoka overflow-hidden">
+    <div className="min-h-screen bg-black text-white overflow-hidden" style={{ fontFamily: "'Fredoka', sans-serif" }}>
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-rekkies-cyan/30">
         <div className="container flex items-center justify-between py-4">
-          <div className="text-2xl font-fredoka-bold neon-text">REKKIES</div>
+          <div className="text-2xl font-bold neon-text">REKKIES</div>
           <div className="flex gap-8 items-center">
             <a href="#club" className="hover:text-rekkies-cyan transition-colors">Club</a>
             <a href="#records" className="hover:text-rekkies-cyan transition-colors">Records</a>
@@ -52,28 +52,28 @@ export default function Home() {
 
         <div className="relative z-10 container text-center">
           <div className="mb-6 inline-block px-6 py-2 border border-rekkies-cyan/50 rounded-full">
-            <span className="text-rekkies-cyan text-sm font-fredoka-semibold">WELCOME TO THE FUTURE</span>
+            <span className="text-rekkies-cyan text-sm font-semibold">WELCOME TO THE FUTURE</span>
           </div>
           
-          <h1 className="text-7xl md:text-8xl font-fredoka-bold mb-6 leading-tight">
+          <h1 className="text-7xl md:text-8xl font-bold mb-6 leading-tight">
             <span className="neon-text">REKKIES</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-fredoka-regular">
+          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto font-normal">
             Money. Music. Movies.
           </p>
           
-          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto font-fredoka-light">
+          <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto font-light">
             A community of excellence for entrepreneurs, media producers, and musicians.
           </p>
 
           <div className="flex gap-6 justify-center flex-wrap">
             <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-fredoka-bold px-8 py-6 text-lg neon-glow">
+              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-bold px-8 py-6 text-lg neon-glow">
                 Join the REKKIES <ArrowRight className="ml-2" />
               </Button>
             </a>
-            <Button variant="outline" className="border-rekkies-magenta text-rekkies-magenta hover:bg-rekkies-magenta/10 font-fredoka-bold px-8 py-6 text-lg">
+            <Button variant="outline" className="border-rekkies-magenta text-rekkies-magenta hover:bg-rekkies-magenta/10 font-bold px-8 py-6 text-lg">
               Explore More
             </Button>
           </div>
@@ -94,16 +94,16 @@ export default function Home() {
             {/* Left: Content */}
             <div>
               <div className="mb-6 inline-block px-4 py-2 bg-rekkies-magenta/10 border border-rekkies-magenta/50 rounded">
-                <span className="text-rekkies-magenta text-sm font-fredoka-semibold">THE COMMUNITY</span>
+                <span className="text-rekkies-magenta text-sm font-semibold">THE COMMUNITY</span>
               </div>
 
-              <h2 className="text-5xl md:text-6xl font-fredoka-bold mb-8 leading-tight">
+              <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
                 <span className="neon-text-magenta">REKKIES</span>
                 <br />
                 <span className="text-white">Club</span>
               </h2>
 
-              <p className="text-xl text-gray-300 mb-6 font-fredoka-regular leading-relaxed">
+              <p className="text-xl text-gray-300 mb-6 font-normal leading-relaxed">
                 Join an exclusive community of excellence where entrepreneurs, media producers, and musicians converge to create, collaborate, and elevate their craft.
               </p>
 
@@ -113,8 +113,8 @@ export default function Home() {
                     <Zap className="w-6 h-6 text-rekkies-cyan" />
                   </div>
                   <div>
-                    <h3 className="font-fredoka-bold text-lg mb-2">Money</h3>
-                    <p className="text-gray-400 font-fredoka-regular">Financial opportunities and investment connections</p>
+                    <h3 className="font-bold text-lg mb-2">Money</h3>
+                    <p className="text-gray-400 font-normal">Financial opportunities and investment connections</p>
                   </div>
                 </div>
 
@@ -123,8 +123,8 @@ export default function Home() {
                     <Music className="w-6 h-6 text-rekkies-cyan" />
                   </div>
                   <div>
-                    <h3 className="font-fredoka-bold text-lg mb-2">Music</h3>
-                    <p className="text-gray-400 font-fredoka-regular">Production, collaboration, and distribution</p>
+                    <h3 className="font-bold text-lg mb-2">Music</h3>
+                    <p className="text-gray-400 font-normal">Production, collaboration, and distribution</p>
                   </div>
                 </div>
 
@@ -133,14 +133,14 @@ export default function Home() {
                     <Film className="w-6 h-6 text-rekkies-cyan" />
                   </div>
                   <div>
-                    <h3 className="font-fredoka-bold text-lg mb-2">Movies</h3>
-                    <p className="text-gray-400 font-fredoka-regular">Content creation and media production</p>
+                    <h3 className="font-bold text-lg mb-2">Movies</h3>
+                    <p className="text-gray-400 font-normal">Content creation and media production</p>
                   </div>
                 </div>
               </div>
 
               <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-fredoka-bold px-8 py-6 text-lg neon-glow-magenta">
+                <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
                   Join the REKKIES <ArrowRight className="ml-2" />
                 </Button>
               </a>
@@ -178,39 +178,39 @@ export default function Home() {
             {/* Right: Content */}
             <div className="order-1 md:order-2">
               <div className="mb-6 inline-block px-4 py-2 bg-rekkies-cyan/10 border border-rekkies-cyan/50 rounded">
-                <span className="text-rekkies-cyan text-sm font-fredoka-semibold">MUSIC PRODUCTION</span>
+                <span className="text-rekkies-cyan text-sm font-semibold">MUSIC PRODUCTION</span>
               </div>
 
-              <h2 className="text-5xl md:text-6xl font-fredoka-bold mb-8 leading-tight">
+              <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
                 <span className="text-white">REKKIES</span>
                 <br />
                 <span className="neon-text">Records</span>
               </h2>
 
-              <p className="text-xl text-gray-300 mb-6 font-fredoka-regular leading-relaxed">
+              <p className="text-xl text-gray-300 mb-6 font-normal leading-relaxed">
                 Our music production division is dedicated to discovering, developing, and distributing world-class music. From production to mastering, we handle every aspect of your sonic journey.
               </p>
 
               <ul className="space-y-4 mb-8">
-                <li className="flex items-center gap-3 text-lg font-fredoka-regular">
+                <li className="flex items-center gap-3 text-lg font-normal">
                   <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
                   Professional production and mixing
                 </li>
-                <li className="flex items-center gap-3 text-lg font-fredoka-regular">
+                <li className="flex items-center gap-3 text-lg font-normal">
                   <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
                   Artist development and mentorship
                 </li>
-                <li className="flex items-center gap-3 text-lg font-fredoka-regular">
+                <li className="flex items-center gap-3 text-lg font-normal">
                   <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
                   Distribution across all platforms
                 </li>
-                <li className="flex items-center gap-3 text-lg font-fredoka-regular">
+                <li className="flex items-center gap-3 text-lg font-normal">
                   <span className="w-2 h-2 bg-rekkies-magenta rounded-full"></span>
                   Marketing and promotion strategies
                 </li>
               </ul>
 
-              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-fredoka-bold px-8 py-6 text-lg neon-glow">
+              <Button className="bg-rekkies-cyan text-black hover:bg-rekkies-magenta font-bold px-8 py-6 text-lg neon-glow">
                 Explore Records
               </Button>
             </div>
@@ -225,31 +225,31 @@ export default function Home() {
             {/* Left: Content */}
             <div>
               <div className="mb-6 inline-block px-4 py-2 bg-rekkies-magenta/10 border border-rekkies-magenta/50 rounded">
-                <span className="text-rekkies-magenta text-sm font-fredoka-semibold">HEADQUARTERS</span>
+                <span className="text-rekkies-magenta text-sm font-semibold">HEADQUARTERS</span>
               </div>
 
-              <h2 className="text-5xl md:text-6xl font-fredoka-bold mb-8 leading-tight">
+              <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
                 <span className="neon-text-magenta">REKKIES</span>
                 <br />
                 <span className="text-white">Corp</span>
               </h2>
 
-              <p className="text-xl text-gray-300 mb-6 font-fredoka-regular leading-relaxed">
+              <p className="text-xl text-gray-300 mb-6 font-normal leading-relaxed">
                 REKKIES Corp serves as the main headquarters and media production hub, orchestrating all operations across our ecosystem. We produce high-quality content, manage strategic initiatives, and drive innovation across the REKKIES family.
               </p>
 
               <div className="grid grid-cols-2 gap-6 mb-8">
                 <div className="p-4 bg-gray-900/50 border border-gray-800 rounded">
-                  <h3 className="font-fredoka-bold text-rekkies-cyan mb-2">Media Production</h3>
-                  <p className="text-sm text-gray-400 font-fredoka-regular">Broadcast, digital, and content creation</p>
+                  <h3 className="font-bold text-rekkies-cyan mb-2">Media Production</h3>
+                  <p className="text-sm text-gray-400 font-normal">Broadcast, digital, and content creation</p>
                 </div>
                 <div className="p-4 bg-gray-900/50 border border-gray-800 rounded">
-                  <h3 className="font-fredoka-bold text-rekkies-magenta mb-2">Strategic Operations</h3>
-                  <p className="text-sm text-gray-400 font-fredoka-regular">Planning, coordination, and execution</p>
+                  <h3 className="font-bold text-rekkies-magenta mb-2">Strategic Operations</h3>
+                  <p className="text-sm text-gray-400 font-normal">Planning, coordination, and execution</p>
                 </div>
               </div>
 
-              <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-fredoka-bold px-8 py-6 text-lg neon-glow-magenta">
+              <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-8 py-6 text-lg neon-glow-magenta">
                 Learn More
               </Button>
             </div>
@@ -271,16 +271,16 @@ export default function Home() {
       {/* CTA Section */}
       <section className="relative py-32 bg-gradient-to-b from-black to-gray-900 border-t-2 border-rekkies-cyan/30">
         <div className="container text-center">
-          <h2 className="text-5xl md:text-6xl font-fredoka-bold mb-8">
+          <h2 className="text-5xl md:text-6xl font-bold mb-8">
             Ready to Join the <span className="neon-text">REKKIES</span>?
           </h2>
 
-          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-fredoka-regular">
+          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto font-normal">
             Become part of an exclusive community of excellence. Connect with entrepreneurs, media producers, and musicians shaping the future.
           </p>
 
           <a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-fredoka-bold px-12 py-8 text-xl neon-glow-magenta">
+            <Button className="bg-rekkies-magenta text-white hover:bg-rekkies-cyan hover:text-black font-bold px-12 py-8 text-xl neon-glow-magenta">
               Join Now <ArrowRight className="ml-2" />
             </Button>
           </a>
@@ -292,13 +292,13 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
-              <h3 className="font-fredoka-bold text-lg mb-4 neon-text">REKKIES</h3>
-              <p className="text-gray-400 font-fredoka-regular text-sm">Money. Music. Movies.</p>
+              <h3 className="font-bold text-lg mb-4 neon-text">REKKIES</h3>
+              <p className="text-gray-400 font-normal text-sm">Money. Music. Movies.</p>
             </div>
 
             <div>
-              <h4 className="font-fredoka-bold mb-4">Divisions</h4>
-              <ul className="space-y-2 text-gray-400 font-fredoka-regular text-sm">
+              <h4 className="font-bold mb-4">Divisions</h4>
+              <ul className="space-y-2 text-gray-400 font-normal text-sm">
                 <li><a href="#club" className="hover:text-rekkies-cyan transition-colors">REKKIES Club</a></li>
                 <li><a href="#records" className="hover:text-rekkies-cyan transition-colors">REKKIES Records</a></li>
                 <li><a href="#corp" className="hover:text-rekkies-cyan transition-colors">REKKIES Corp</a></li>
@@ -306,8 +306,8 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="font-fredoka-bold mb-4">Community</h4>
-              <ul className="space-y-2 text-gray-400 font-fredoka-regular text-sm">
+              <h4 className="font-bold mb-4">Community</h4>
+              <ul className="space-y-2 text-gray-400 font-normal text-sm">
                 <li><a href="https://upgrade.chat/rekkies" target="_blank" rel="noopener noreferrer" className="hover:text-rekkies-cyan transition-colors">Join</a></li>
                 <li><a href="#" className="hover:text-rekkies-cyan transition-colors">About</a></li>
                 <li><a href="#" className="hover:text-rekkies-cyan transition-colors">Contact</a></li>
@@ -315,8 +315,8 @@ export default function Home() {
             </div>
 
             <div>
-              <h4 className="font-fredoka-bold mb-4">Connect</h4>
-              <ul className="space-y-2 text-gray-400 font-fredoka-regular text-sm">
+              <h4 className="font-bold mb-4">Connect</h4>
+              <ul className="space-y-2 text-gray-400 font-normal text-sm">
                 <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Twitter</a></li>
                 <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Instagram</a></li>
                 <li><a href="#" className="hover:text-rekkies-magenta transition-colors">Discord</a></li>
@@ -325,8 +325,8 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-500 font-fredoka-regular text-sm">© 2026 REKKIES. All rights reserved.</p>
-            <p className="text-gray-500 font-fredoka-regular text-sm">Community of Excellence</p>
+            <p className="text-gray-500 font-normal text-sm">© 2026 REKKIES. All rights reserved.</p>
+            <p className="text-gray-500 font-normal text-sm">Community of Excellence</p>
           </div>
         </div>
       </footer>

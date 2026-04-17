@@ -125,7 +125,8 @@
   }
   
   body {
-    @apply bg-background text-foreground font-fredoka;
+    @apply bg-background text-foreground;
+    font-family: 'Fredoka', sans-serif;
   }
   
   html {
@@ -241,35 +242,7 @@
   }
 }
 
-/* Utility classes for Fredoka weights */
-.font-fredoka {
-  font-family: 'Fredoka', sans-serif;
-}
 
-.font-fredoka-light {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 300;
-}
-
-.font-fredoka-regular {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 400;
-}
-
-.font-fredoka-medium {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 500;
-}
-
-.font-fredoka-semibold {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 600;
-}
-
-.font-fredoka-bold {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 700;
-}
 
 /* REKKIES Color utilities */
 .text-rekkies-cyan {
