@@ -190,22 +190,22 @@
 
   /* REKKIES Neon Cyberpunk Styles */
   .neon-text {
-    @apply text-rekkies-cyan drop-shadow-lg;
+    color: #00F7FF;
     text-shadow: 0 0 10px rgba(0, 247, 255, 0.8), 0 0 20px rgba(0, 247, 255, 0.4);
   }
 
   .neon-text-magenta {
-    @apply text-rekkies-magenta;
+    color: #FA00FF;
     text-shadow: 0 0 10px rgba(250, 0, 255, 0.8), 0 0 20px rgba(250, 0, 255, 0.4);
   }
 
   .neon-border {
-    @apply border border-rekkies-cyan;
+    border: 1px solid #00F7FF;
     box-shadow: 0 0 10px rgba(0, 247, 255, 0.5), inset 0 0 10px rgba(0, 247, 255, 0.1);
   }
 
   .neon-border-magenta {
-    @apply border border-rekkies-magenta;
+    border: 1px solid #FA00FF;
     box-shadow: 0 0 10px rgba(250, 0, 255, 0.5), inset 0 0 10px rgba(250, 0, 255, 0.1);
   }
 
